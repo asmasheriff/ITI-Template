@@ -1,0 +1,594 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  width: 100%;
+  height: 750px;
+  background-image: url(bg.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: relative;
+  margin: 40px 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 60px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+}
+
+.login {
+  width: 180px;
+  height: 30px;
+  padding: 10px 10px;
+  align-content: center;
+  position: relative;
+  background-color: rgb(216, 42, 78);
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 80px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.middle {
+  text-align: center;
+  margin-top: 90px;
+  color: white;
+}
+
+.first {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.secound {
+  text-align: center;
+  margin-top: 20px;
+  margin: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 50%;
+  line-height: 30px;
+}
+
+.inputData {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.email,
+.SingupNow {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  align-content: center;
+  position: relative;
+  text-align: center;
+}
+
+.email {
+  width: 300px;
+  height: 45px;
+  color: rgb(165, 165, 165);
+}
+
+.SingupNow {
+  width: 200px;
+  height: 45px;
+  background-color: rgb(216, 42, 78);
+  color: white;
+}
+
+.Categories {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.headline {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.lorem {
+  color: rgb(165, 165, 165);
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.CARDS {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.card_container {
+  background-color: rgb(243, 249, 250);
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+
+.Head_course,
+.details,
+.count {
+  padding-left: 20px;
+}
+
+.Head_course {
+  font-size: 25px;
+  color: rgb(71, 71, 71);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.details {
+  color: rgb(165, 165, 165);
+}
+
+.count {
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(216, 42, 78);
+}
+
+.card_container:hover {
+  background-color: rgb(216, 42, 78);
+
+  .Head_course,
+  .details,
+  .count {
+    color: white;
+  }
+}
+
+.Search {
+  width: 85%;
+  height: 200px;
+  margin: auto;
+  padding: 90px 0;
+  background-color: rgb(216, 42, 78);
+}
+
+.searchPar {
+  width: 80%;
+  margin: auto;
+}
+
+.serch_text {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+
+.search_course {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: white;
+  padding: 50px 40px;
+}
+
+.Enter {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(237, 244, 246);
+  width: 300px;
+  height: 30px;
+  color: rgb(165, 165, 165);
+}
+
+.Enter_ {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: none;
+  background-color: rgb(216, 42, 78);
+  width: 200px;
+  height: 30px;
+  color: white;
+  text-align: center;
+}
+
+.course-section {
+  margin: auto;
+  padding: 50px 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Featured {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+._Featured {
+  text-align: center;
+  padding: 0 150px 0 150px;
+  box-sizing: border-box;
+  color: rgb(165, 165, 165);
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.course_head {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 20px 20px;
+  padding: 0 350px 0 350px;
+  font-size: larger;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card__ {
+  width: calc(25% - 15px);
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 249, 250);
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+
+.card-img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.price-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(216, 42, 78);;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-body p {
+  color: #666;
+  margin: 10px 0;
+}
+
+#students {
+  color: crimson;
+  font-weight: bold;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-top: 1px solid #eee;
+
+}
+
+.card-footer img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card-footer .role {
+  color: crimson;
+}
+
+/* .teacher{
+    margin: auto;
+  padding: 50px 0;
+}
+
+.Become {
+    background-color: crimson;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+} */
+
+.signup-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: rgb(216, 42, 78);;
+  margin: 0;
+  padding: 0;
+  color: white;
+    height: 100vh;
+}
+
+.signup-content {
+  flex: 1;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signup-content h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.signup-content p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.signup-form {
+  background-color: #f1f9fa;
+  padding: 30px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signup-form input {
+  padding: 12px;
+  border: none;
+  background-color: #e5eff0;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signup-form .upload {
+  background-color: #333;
+  color: white;
+  padding: 12px;
+  border: none;
+}
+
+.signup-form .search {
+  background-color: rgb(216, 42, 78);;
+  color: white;
+  padding: 12px;
+  border: none;
+
+}
+
+.signup-image {
+  flex: 1;
+  height: 100%;
+}
+
+.signup-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.last{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center; 
+}
+
+.Community{
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+
+.com {
+  text-align: center;
+  padding: 0 150px 0 150px;
+  box-sizing: border-box;
+  color: rgb(165, 165, 165);
+  line-height: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.reg {
+  margin-top: 60px;
+    width: 180px;
+  height: 30px;
+  padding: 10px 10px;
+  align-content: center;
+  position: relative;
+  background-color: rgb(216, 42, 78);
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line{
+  border-color:rgb(216, 42, 78);
+}
+
+.footer_section {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin: 20px auto;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.Contactt, .column, .lastooo {
+    flex: 1 0 200px;
+    padding: 0 15px;
+}
+
+.Contactt h3, .column h3, .lastooo h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Contactt li, .column li, .lastooo li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    list-style: none;
+    padding: 0;
+}
+
+.Contactt li .redoo {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #ff0033;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.Contactt li:last-child {
+    margin-bottom: 0;
+}
+
+.lastooo input {
+    width: calc(100% - 20px);
+    padding: 12px 10px;
+    border: none;
+    background-color: #ececec;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+}
+
+.lastooo input::placeholder {
+    color: #888;
+}
+
+.lastooo button {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #ff0033;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.lastooo button:hover {
+    background-color: #cc002a;
+}
+
+.lastooo p {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+
+/* .searchPar {
+margin: auto;
+} */
+
+/* .course:hover{
+color: white;
+} */
+
+/* .card{
+  display: inline-block;
+  border: 3px solid black;
+  width: 280px;
+  height: 80px;
+} */
+
+/* display: flex;
+  align-items: center;
+  align-content: center; */
